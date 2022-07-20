@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="18dp"
+    tools:context=".getdoctor.GetAppointmentSchedule">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Schedule Id :"
+        android:textSize="24dp"
+        android:visibility="gone"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/tv_get_appointmentScheduleid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:visibility="gone"
+        android:textSize="20dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date :"
+        android:visibility="gone"
+        android:textSize="24dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/tv_get_appointmentDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:visibility="gone"
+        android:textSize="20dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Doctor Id :"
+        android:textSize="24dp"
+        android:visibility="gone"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/tv_get_appointmentDoctorid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:visibility="gone"
+        android:textSize="20dp"/>
+
+    <ListView
+        android:id="@+id/listview_getappointment_schedule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
